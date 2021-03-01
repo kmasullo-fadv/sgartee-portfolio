@@ -1,25 +1,29 @@
-import logo from './logo.svg';
+import React, {useState} from 'react';
 import './App.css';
+import { Route } from 'react-router-dom';
+import Header from './Header/Header.js';
+import Home from './Home/Home.js'
+import About from './About/About.js'
+import Contact from "./Contact/Contact";
+import Footer from './Footer/Footer.js'
 
-function App() {
+
+export default function App() {
+  const [isContact, setContact] = useState(false);
+
+  const handleSetContact = () => {
+    isContact ? setContact(false) : setContact(true);
+  }
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <div id="app">
+        <Route path='/'><Header props={{isContact, handleSetContact}}/></Route>
+        <Route component={Home} exact path='/' />
+        <Route component={About} exact path='/about' />
+        <Route path='/'><Contact props={{isContact, setContact}}/></Route>
+        {/* <Route component={Footer} path='/' /> */}
+      </div>
+    </>
   );
 }
-
-export default App;
