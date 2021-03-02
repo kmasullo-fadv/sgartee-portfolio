@@ -28,15 +28,26 @@ const images = [
         width: "2982"
     },
     {
-        pic: two,
-        title: "Silhouette",
+        pic: five,
+        title: "Fresh Tulips",
         price: 0,
-        medium: "Charcoal drawing",
+        medium: "Oil pastel pointillism",
         forSale: "",
         desc: "",
         orientation: "vert",
-        height: "2788",
-        width: "2034"
+        height: "3844",
+        width: "2778"
+    },
+    {
+        pic: six,
+        title: "Through the Panes",
+        price: 0,
+        medium: "Pencil drawing",
+        forSale: "",
+        desc: "",
+        orientation: "vert",
+        height: "4368",
+        width: "3048"
     },
     {
         pic: three,
@@ -61,26 +72,15 @@ const images = [
         width: "3792"
     },
     {
-        pic: five,
-        title: "Fresh Tulips",
+        pic: two,
+        title: "Silhouette",
         price: 0,
-        medium: "Oil pastel pointillism",
+        medium: "Charcoal drawing",
         forSale: "",
         desc: "",
         orientation: "vert",
-        height: "3844",
-        width: "2778"
-    },
-    {
-        pic: six,
-        title: "Through the Panes",
-        price: 0,
-        medium: "Pencil drawing",
-        forSale: "",
-        desc: "",
-        orientation: "vert",
-        height: "4368",
-        width: "3048"
+        height: "2788",
+        width: "2034"
     },
     {
         pic: seven,
@@ -93,17 +93,7 @@ const images = [
         height: "3104",
         width: "4656"
     },
-    {
-        pic: eight,
-        title: "Orange Drape",
-        price: 0,
-        medium: "Pastel",
-        forSale: "",
-        desc: "",
-        orientation: "vert",
-        height: "3753",
-        width: "2856"
-    },
+    
     {
         pic: nine,
         title: "Red",
@@ -169,6 +159,17 @@ const images = [
         orientation: "horz",
         height: "2981",
         width: "3852"
+    },
+    {
+        pic: eight,
+        title: "Orange Drape",
+        price: 0,
+        medium: "Pastel",
+        forSale: "",
+        desc: "",
+        orientation: "vert",
+        height: "3753",
+        width: "2856"
     },
     {
         pic: fifteen,

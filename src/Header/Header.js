@@ -17,7 +17,6 @@ export default function Header(props) {
                     </div>
                 </div>
             </nav>
-            <h1>Susan Gartee</h1>
         </header>
     )
 }
