@@ -7,7 +7,7 @@ export default function Contact(props) {
     const renderForm = () => {
         return (
             <div className={`devContact ${props.props.isContact ? 'contactDisplay' : 'contactHide'}`} id="devContact">
-                <form id="contactForm" action="https://formspree.io/xvowbnak" method="post" onSubmit={() => setSubmit(true)}>
+                <form id="contactForm" action="https://formspree.io/f/xoqpgaoa" method="POST" onSubmit={() => setSubmit(true)}>
                     <div id="contactCloseDiv">
                         <p></p>
                         <button id="contactClose" type="button" onClick={() => props.props.setContact(false)}>&times;</button>

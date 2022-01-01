@@ -9,17 +9,19 @@
     top: 0;
     z-index: 1;
     padding: 5vh;
+    position: relative;
 }
 
 #home h1 {
-    font-size: 3vw;
+    font-size: 3.3vw;
     letter-spacing: 2vw;
-    width: 100%;
-    color: rgb(23, 56, 138);
+    width: 80%;
+    color: rgba(23, 56, 138, 0.673);
     font-family: Syncopate;
     font-weight: bold;
     position: absolute;
     text-align: center;
+    margin: 16% auto 0 10%;
 }
 
 /* #welcomeImg{

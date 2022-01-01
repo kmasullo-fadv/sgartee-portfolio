@@ -1,12 +1,11 @@
 #worksImgs {
-    width: 80%;
-    margin: auto;
+    width: 75%;
+    margin: 40px auto;
     display: grid;
     grid-template-columns: 33% 33% 33%;
     grid-auto-rows: auto;
     justify-content: center;
     gap: 10px;
-    
 }
 
 .worksContainer {

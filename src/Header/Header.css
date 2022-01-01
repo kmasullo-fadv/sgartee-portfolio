@@ -9,13 +9,14 @@ nav {
   flex-direction: row;
   position: fixed;
   top: 0;
+  z-index: 999;
 }
 
 .dropdown {
   position: relative;
   width: 150px;
   margin: 0;
-  
+  z-index: 999;
 }
 
 .dropbtn {
